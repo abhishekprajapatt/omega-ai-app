@@ -1,0 +1,116 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #3a7bd5;
+  /* #4d6bfe; */
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.loader div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+code {
+  white-space: pre-wrap !important;
+}
+
+pre {
+  border-radius: 10px !important;
+}
+
+body {
+  background: #0b0c0d;
+  color: #ececec;
+}
+
+/* Dracula Theme */
+pre[class*="language-"] {
+  background: #0f0f1e !important;
+  border: 1px solid rgba(98, 114, 164, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+code[class*="language-"] {
+  color: #f8f8f2 !important;
+  text-shadow: none !important;
+  font-weight: 400 !important;
+}
+
+/* Dracula Premium Colors */
+.token.comment {
+  color: #6272a4 !important;
+  font-style: italic;
+}
+
+.token.string {
+  color: #a1ff60 !important;
+}
+
+.token.number {
+  color: #bd93f9 !important;
+}
+
+.token.boolean,
+.token.keyword {
+  color: #ff79c6 !important;
+  font-weight: 600;
+}
+
+.token.function {
+  color: #50fa7b !important;
+}
+
+.token.class-name,
+.token.tag {
+  color: #8be9fd !important;
+  font-weight: 600;
+}
+
+.token.attr-name {
+  color: #50fa7b !important;
+}
+
+.token.attr-value {
+  color: #a1ff60 !important;
+}
+
+.token.operator {
+  color: #ff79c6 !important;
+}
+
+.token.property {
+  color: #8be9fd !important;
+}
+
+.token.punctuation {
+  color: #f8f8f2 !important;
+}
+
+.token.selector {
+  color: #ff79c6 !important;
+}
+
+.token.unit {
+  color: #bd93f9 !important;
+}
+
+.token.variable {
+  color: #8be9fd !important;
+}
+
+@layer utilities {
+  .font-head {
+    @apply font-['Syne'];
+  }
+}

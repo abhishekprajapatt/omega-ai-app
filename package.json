@@ -1,0 +1,53 @@
+{
+  "name": "omg-ai",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "desktop": "electron ."
+},
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@typescript-eslint/parser": "^8.31.1",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.16.0",
+    "bytez.js": "^1.1.18",
+    "firebase": "^11.1.0",
+    "framer-motion": "^12.8.0",
+    "gsap": "^3.12.7",
+    "jsonwebtoken": "^9.0.3",
+    "ldrs": "^1.1.7",
+    "lucide-react": "^0.488.0",
+    "mongoose": "^8.13.2",
+    "next": "^16.1.4",
+    "openai": "^4.91.1",
+    "postcss": "^8.5.3",
+    "prismjs": "^1.30.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-speech-kit": "^3.0.1",
+    "react-speech-recognition": "^4.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^22.7.6",
+    "@types/prismjs": "^1.16.9",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-speech-recognition": "^3.9.6",
+    "electron": "^42.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3"
+  }
+}
